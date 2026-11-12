@@ -1,7 +1,5 @@
 <h1 align="center">
 <br>
-<img width="700" alt="owl" src="images/renders/front\\\_angle.png" />
-<br>
 Owl
 <br>
 </h1>
@@ -13,7 +11,7 @@ A compact STM32F072 dev board with USB-C :D
 </h3>
 
 <div align="center">
-  <img width="420" alt="back" src="images/art/back\\\_art\\\_gold.png" />
+  
   <img width="280" alt="zine" src="images/renders/zine.png" />
 </div>
 
@@ -21,7 +19,6 @@ Owl is my own STM32 dev board, kinda like a blue pill but with USB-C and made by
 
 The PCB is 4 layers, 72 x 30.48 mm, black with gold pads, and it has some art on the back cause a plain back is boring.
 
-The whole design process is in [JOURNAL.md](JOURNAL.md), it took me around 29 hours.
 
 ## Features
 
@@ -43,23 +40,23 @@ PA11 and PA12 are the USB data lines and PA13 / PA14 are SWDIO and SWCLK, so try
 
 |USB-C|Power|
 |-|-|
-|<img width="450" alt="usb c" src="images/usb\\\_c\\\_esd.png" />|<img width="450" alt="power" src="images/power\\\_supply.png" />|
+|<img width="450" alt="usb c" src="images/usb_c_esd.png" />|<img width="450" alt="power" src="images/power_supply.png" />|
 
 |Decoupling, crystal, reset and boot|SWD|
 |-|-|
-|<img width="400" alt="decoupling" src="images/decoupling\\\_crystal\\\_reset.png" />|<img width="450" alt="swd" src="images/swd\\\_debug.png" />|
+|<img width="400" alt="decoupling" src="images/decoupling_crystal_reset.png" />|<img width="450" alt="swd" src="images/swd_debug.png" />|
 
 ## PCB
 
 |Routed|Ground pour|
 |-|-|
-|<img width="450" alt="routed" src="images/routed\\\_board.png" />|<img width="450" alt="pour" src="images/final\\\_pour.png" />|
+|<img width="450" alt="routed" src="images/routed_board.png" />|<img width="450" alt="pour" src="images/final_pour.png" />|
 
 The STM32 is rotated 45 degrees so the traces fan out to the headers easier. The decoupling caps and crystal sit right next to the chip and there are 99 vias stitching the grounds together.
 
 ## Art
 
-<img width="600" alt="back art" src="images/art/back\\\_art.png" />
+<img width="600" alt="back art" src="images/art/back_art.png" />
 
 The back has "Owl" and "made by Shadow" in cursive with a little line drawing with flowers in the middle.
 
